@@ -44,4 +44,8 @@ You can click the Preview link to take a look at your changes.
       <password>TOKEN</password>
     </server>
   </servers>
-</settings>  
+</settings>                              <project xmlns:resolver="antlib:org.apache.maven.resolver.ant" ...>
+  <taskdef uri="antlib:org.apache.maven.resolver.ant" resource="org/apache/maven/resolver/ant/antlib.xml"
+    classpath="lib/maven-resolver-ant-tasks-1.5.1-uber.jar" />
+  ...
+</project>
